@@ -195,6 +195,14 @@
             </resource>
         </resources>
         <plugins>
+                 <plugin>
+<groupId> org.apache.maven.plugins </groupId>
+<artifactId> maven-war </artifactId>
+<version> 3.9.1</version>
+<configuration>
+<webappDirectory> /dir </webappDirectory>
+</configuration>
+</plugin>
             <!--mybatis 逆向工程插件-->
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
